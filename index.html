@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Race Car</title>
+    <script src="js/index.js" defer></script>
+    <!--
+    <script src="js/solution-main.js" defer></script>
+    <script src="js/solution-car.js" defer></script>
+    <script src="js/solution-obstacle.js" defer></script>
+    <script src="js/solution-game.js" defer></script>
+    -->
   </head>
   <body>
     <div class="game-intro">
@@ -14,12 +21,12 @@
       <button id="start-button">StartGame</button>
       <p>Use the left and right arrow to control the car!</p>
       <img src="./images/arrows.png" alt="" class="arrows-img" />
+      <div id="scoreDiv">Score: <span id="score">0</span></div>
     </div>
 
     <div id="game-board">
       <canvas id="canvas" width="500" height="700"></canvas>
     </div>
 
-    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
